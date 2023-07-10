@@ -9,7 +9,7 @@
  * Return: dest
  */
 
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 
 {
 	int i;
@@ -20,7 +20,7 @@ char *_strncat(char *dest, char *src, int n);
 
 	while (dest[i] != '\0')
 	{
-		
+
 		i++;
 	}
 
